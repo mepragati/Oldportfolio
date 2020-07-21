@@ -94,6 +94,7 @@ sup {
     width: 100%;
     height: 100%;
     background: url(https://github.com/mepragati/mepragati.github.io/blob/master/image/bg.jpg?raw=true);
+    background-attachment: fixed;
     padding: 0;
     margin: 0 0 0 0;
     background-repeat: no-repeat;
