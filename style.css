@@ -1,0 +1,307 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, #c1f4e7, #e0f2ee);
+    font-family: 'Mulish', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top:0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+li a:active {
+    background-color: #C0C0C0;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    margin-left: 30px;
+}
+
+sup {
+    
+    color: #fff;
+    font-size: 22px;
+    font-style: italic;
+    position: absolute;
+    left: 30%;
+    top: 236px;
+}
+
+#name {
+    
+    text-align: center;
+    padding-top: 250px;
+    font-size: 50px;
+}
+
+#work {
+    
+    text-align: center;
+    margin-top: -30px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+#firstname {
+    color: #fff;
+}
+
+#lastname {
+    color: #000;
+}
+
+#work1 {
+    color: #fff;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
+    background: url(image/bg.jpg);
+    padding: 0;
+    margin: 0 0 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+
+}
+
+#profile {
+    margin: 50px 100px;
+    padding: 50px 100px;
+    float: right;
+    transition: 0.5s;
+}
+
+
+
+#profile_pic {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border: 8px solid gray;
+    border-radius: 50% 50%;
+    margin-right: 120px;
+    
+
+}
+
+#info {
+    float: right;
+}
+
+#name1 {
+    padding-left: 25px;
+    text-align: center;
+    
+    font-size: 38px;
+}
+
+#info1 {
+    
+    margin-top: -5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#border {
+
+    height: 3px;
+    width: 100px;
+    background: #333;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+#about {
+    
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 0dp;
+}
+
+#personalinfo {
+    margin: 100px 200px;
+    padding-left: 25px;
+    text-align: left;
+    margin-left: 10px;
+    
+    font-size: 28px;
+
+}
+
+#personalinfo1 {
+    margin: 20 170 50;
+    float: left;
+    font-size: 32px;
+}
+
+#personalinfo2 {
+    
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#personalname {
+    
+    margin-top: -10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#head {
+    
+    margin-top: -20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#technicalskill,#otherskill {
+    margin: 100px 200px;
+    padding-left: 25px;
+    text-align: left;
+    margin-left: 10px;
+    
+    font-size: 28px;
+}
+
+#skill1 {
+    margin: 20 240 50;
+    float: left;
+    font-size: 36px;
+}
+
+#skill2 {
+    
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#otherskill1 {
+    margin: 10 200 50;
+    float: left;
+    font-size: 36px;
+}
+
+#otherskill2 {
+    
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#profile:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+footer{
+    width: 100%;
+    height: 180px;
+    background: black;
+    
+}
+
+#contact{
+  text-align: center;
+  color: #fff;
+   font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fab,
+.fas {
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+.fa-facebook-f:hover {
+    background: linear-gradient(90deg ,#0696ca,#0656cf);
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background: #b23121;
+    color: white;
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
+
+.fa-linkedin-in:hover{
+    background: #0656cf;
+    color: white;
+}
+
+h8{
+    font-size: 12px;
+    font-weight: 900;
+}
