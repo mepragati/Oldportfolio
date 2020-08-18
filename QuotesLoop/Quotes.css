@@ -1,25 +1,68 @@
-body
-{
-    background-color: black;
-    color: whitesmoke;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 35px;
-    margin:100px 100px;
-}
-img
-{
-    float: left;
+/*For Laptop*/
+@media only screen and (min-width: 601px) {
+    body {
+        background-color: black;
+        color: whitesmoke;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 35px;
+        margin: 100px 100px;
+    }
+
+    img {
+        float: left;
+    }
+
+    #quotes {
+        padding-top: 160px;
+    }
+
+    footer {
+        position: absolute;
+        top: 95%;
+        left: 45%;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
 }
 
-#quotes
-{   
-    padding-top:160px;
-}
-footer
-{   position: absolute;
-    top:95%;
-    left:45%;
-    font-size: 18px;
-    font-weight: 400;
-  
+/*For Mobile*/
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: black;
+        color: whitesmoke;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    img {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #quotes {
+        margin: 15px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 35px;
+    }
+
+    footer {
+        position: absolute;
+        top: 95%;
+        left: 23%;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
 }
